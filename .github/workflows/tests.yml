@@ -109,4 +109,4 @@ jobs:
         run: composer install --no-interaction --prefer-dist --optimize-autoloader
 
       - name: Tests
-        run: ./vendor/bin/phpunit --stop-on-failure --stop-on-error --do-not-cache-result
+        run: ./vendor/bin/pest --stop-on-error
